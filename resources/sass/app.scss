@@ -1,0 +1,16 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.bullet {
+    display: inline;
+    margin: 0 4px;
+    &:after {
+        content: "\2022";
+    }
+}
